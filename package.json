@@ -1,0 +1,29 @@
+{
+  "name": "mern-basics",
+  "version": "1.0.0",
+  "description": "MERN-Basic",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server":"nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/siddhartha0110/MERN-Basic-App.git"
+  },
+  "author": "Siddhartha Saxena",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/siddhartha0110/MERN-Basic-App/issues"
+  },
+  "homepage": "https://github.com/siddhartha0110/MERN-Basic-App#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "concurrently": "^5.0.2",
+    "express": "^4.17.1",
+    "mongoose": "^5.8.7"
+  }
+}
